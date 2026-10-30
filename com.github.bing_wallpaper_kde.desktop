@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name=Bing Wallpaper Manager
+GenericName=Wallpaper Manager
+Comment=Browse and set Bing wallpapers for Fedora KDE Plasma
+Exec=/home/amanchke/.gemini/antigravity/scratch/bing-wallpaper-kde/main.py
+Icon=/home/amanchke/.gemini/antigravity/scratch/bing-wallpaper-kde/resources/icon.png
+Terminal=false
+Type=Application
+Categories=Settings;DesktopSettings;Qt;KDE;Utility;
+StartupNotify=true
+Actions=Next;Tray;
+
+[Desktop Action Next]
+Name=Next Wallpaper
+Exec=/home/amanchke/.gemini/antigravity/scratch/bing-wallpaper-kde/main.py --next
+
+[Desktop Action Tray]
+Name=Start in Tray
+Exec=/home/amanchke/.gemini/antigravity/scratch/bing-wallpaper-kde/main.py --tray
